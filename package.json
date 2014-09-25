@@ -1,0 +1,33 @@
+{
+  "name": "array-missing",
+  "version": "1.0.0",
+  "description": "Call a function for every element from a given array that's missing from another array",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap-spec": "^1.0.0",
+    "tape": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/array-missing.git"
+  },
+  "keywords": [
+    "missing",
+    "array",
+    "utility"
+  ],
+  "homepage": "https://github.com/hughsk/array-missing",
+  "bugs": {
+    "url": "https://github.com/hughsk/array-missing/issues"
+  }
+}
