@@ -1,6 +1,6 @@
 {
   "name": "array-missing",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Call a function for every element from a given array that's missing from another array",
   "main": "index.js",
   "license": "MIT",
