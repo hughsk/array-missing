@@ -34,3 +34,12 @@ test('multiple missing elements', function(t) {
   t.equal(missing[1][id], 4, 'missing[1] index === 4')
   t.end()
 })
+
+test('matching elements', function(t) {
+  miss([1, 2], [2, 3], null, function(el, i) {
+    t.equal(el, 2, 'matched 2')
+    t.equal(i, 1, 'index is 1')
+  })
+
+  t.end()
+})

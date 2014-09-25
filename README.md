@@ -6,13 +6,14 @@ Call a function for every element from a given array that's missing from another
 
 [![NPM](https://nodei.co/npm/array-missing.png)](https://nodei.co/npm/array-missing/)
 
-### `missing(expected, actual, missed)`
+### `missing(expected, actual, [missed], [matched])`
 
 Checks every element in the `expected` array to see if it's present somewhere in
 the `actual` array.
 
 If an element isn't found, `missed(el, index)` will be called, where `el` is the
-element that's missing and `index` is its index within `expected`.
+element that's missing and `index` is its index within `expected`. Otherwise,
+`matched` will be called with the same arguments.
 
 For example:
 
